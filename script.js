@@ -3,7 +3,9 @@ function checkOddEven() {
 
     if (number % 2 === 0) {
         document.getElementById("result").innerHTML = number + " is an Even Number";
+        console.log(number + " is an odd number")
     } else {
         document.getElementById("result").innerHTML = number + " is an Odd Number";
+        console.log(number + "is an even number")
     }
 }
